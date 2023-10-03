@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="it">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Bootstrap demo</title>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous"
+      />
+   </head>
+   <body>
+      <header>
+         <nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+               <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                     <img
+                        src="./assets/img/logo.jpg"
+                        alt="Bootstrap"
+                        width="100"
+                        height="30"
+                     />
+                  </a>
+                  <button
+                     class="navbar-toggler"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#navbarNav"
+                     aria-controls="navbarNav"
+                     aria-expanded="false"
+                     aria-label="Toggle navigation"
+                  >
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                           <a
+                              class="nav-link active"
+                              aria-current="page"
+                              href="#"
+                              >Home</a
+                           >
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Saldi</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link disabled" aria-disabled="true"
+                              >Welcome Summer</a
+                           >
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Last Minute</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Recenzioni</a>
+                        </li>
+                     </ul>
+                     <form class="d-flex ms-auto" role="search">
+                        <input
+                           class="form-control me-2"
+                           type="search"
+                           placeholder="Cerca posti da sogno"
+                           aria-label="Search"
+                        />
+                        <button class="btn btn-outline-danger" type="submit">
+                           Cerca
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </nav>
+         </nav>
+      </header>
+      <main>
+         <!-- itroduction -->
+         <div class="container p-4 my-5 bg-light rounded text-secondary">
+            <figure
+               class="row px-3 d-flex flex-row align-items-center justify-content-center justify-content-lg-start"
+            >
+               <blockquote class="blockquote px-0 mb-0 w-auto">
+                  <h1 class="display-2 p-0">Travel Destination</h1>
+               </blockquote>
+               <figcaption
+                  class="w-auto blockquote-footer d-flex align-items-center mb-0 ps-1 fs-6 mt-2 text-secondary"
+               >
+                  Feel the Freedom
+               </figcaption>
+               <div
+                  class="row-cols-1 px-0 d-flex flex-column align-items-center align-items-lg-start justify-content-center justify-content-lg-start"
+               >
+                  <hr class="my-1" />
+                  <p
+                     class="fs-5 text text-secondary d-flex justify-content-center justify-content-lg-start"
+                  >
+                     <em> Scropi le destinazioni più calde del momento!</em>
+                  </p>
+                  <button
+                     type="button"
+                     class="btn btn-info px-5 text-white mb-3 w-auto"
+                  >
+                     Prenota ora
+                  </button>
+               </div>
+            </figure>
+         </div>
+
+         <!-- saldi -->
+         <div class="container mt-5 px-0">
+            <div class="d-flex flex-row align-items-center mb-3">
+               <h2 class="ps-0 m-0">Saldi</h2>
+               <p class="ps-0 pe-3 m-0 ms-auto">
+                  <a
+                     class="link-info link-offset-2 link-underline link-underline-opacity-0"
+                     href="#"
+                     >Nascondi sezione</a
+                  >
+               </p>
+            </div>
+            <div
+               class="row row-cols-2 row-cols-md-3 row-cols-lg-4 d-flex justify-content-between"
+            >
+               <div class="col mb-3">
+                  <div class="card border border-info">
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card border border-info">
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card border border-info">
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3 d-md-none d-lg-block">
+                  <div class="card border border-info">
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- welcome summer -->
+         <div class="container mt-5 px-0">
+            <div class="d-flex flex-row align-items-center mb-3">
+               <h2 class="ps-0 m-0">Welcome Summer</h2>
+               <p class="ps-0 pe-3 m-0 ms-auto">
+                  <a
+                     class="link-info link-offset-2 link-underline link-underline-opacity-0"
+                     href="#"
+                     >Nascondi sezione</a
+                  >
+               </p>
+            </div>
+            <div
+               class="row row-cols-2 row-cols-lg-3 d-flex justify-content-between"
+            >
+               <div class="col mb-3">
+                  <div class="card shadow-lg position-relative">
+                     <span
+                        class="badge text-bg-danger position-absolute top-0 end-0 m-2"
+                        >Hot</span
+                     >
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card shadow-lg position-relative">
+                     <span
+                        class="badge text-bg-danger position-absolute top-0 end-0 m-2"
+                        >Hot</span
+                     >
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card shadow-lg position-relative">
+                     <span
+                        class="badge text-bg-danger position-absolute top-0 end-0 m-2"
+                        >Hot</span
+                     >
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card shadow-lg position-relative">
+                     <span
+                        class="badge text-bg-danger position-absolute top-0 end-0 m-2"
+                        >Hot</span
+                     >
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card shadow-lg position-relative">
+                     <span
+                        class="badge text-bg-danger position-absolute top-0 end-0 m-2"
+                        >Hot</span
+                     >
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col mb-3">
+                  <div class="card shadow-lg position-relative">
+                     <span
+                        class="badge text-bg-danger position-absolute top-0 end-0 m-2"
+                        >Hot</span
+                     >
+                     <img
+                        src="./assets/img/place-holder-small.jpg"
+                        class="card-img-top"
+                        alt="a woman walks in a beach"
+                     />
+                     <div class="card-body">
+                        <h5 class="card-title">Titolo</h5>
+                        <p class="card-text">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing
+                           elit. Sunt quas eligendi facilis, cum nam ab totam
+                           omnis laboriosam unde fugiat non, placeat quis harum
+                           ullam eum iste aut, aspernatur soluta.
+                        </p>
+                        <a href="#" class="btn btn-info">Prenota</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- offerta del giorno -->
+         <div class="container mt-5 px-0">
+            <div class="mb-3">
+               <h2 class="ps-0 m-0">Offerta del giorno</h2>
+            </div>
+            <div class="row row-cols-2">
+               <div class="col col-lg-8">
+                  <img
+                     class="rounded shadow img-fluid"
+                     src="./assets/img/place-holder-big.jpg"
+                     alt="A woman walks in beach"
+                  />
+               </div>
+               <div class="col col-lg-4">
+                  <div class="d-flex flex-column">
+                     <h1 class="display-2">Fushifaru Moldives</h1>
+                     <p>15.01.2021-31.01.2021</p>
+                     <p class="fs-4 my-4">
+                        Ville a partire da 500 €, non fartele sfuggire!
+                     </p>
+                     <span
+                        class="badge rounded-pill text-bg-dark align-self-start"
+                        >Best offer</span
+                     >
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Last minute -->
+         <div class="container mt-5 px-0">
+            <div class="mb-3">
+               <h2 class="ps-0 m-0">Last Minute</h2>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6">
+               <div class="col">
+                  <img
+                     class="card-img rounded mb-3 shadow"
+                     src="./assets/img/place-holder-small.jpg"
+                     alt="a woman waling in the beach"
+                  />
+               </div>
+               <div class="col">
+                  <img
+                     class="card-img rounded mb-3 shadow"
+                     src="./assets/img/place-holder-small.jpg"
+                     alt="a woman waling in the beach"
+                  />
+               </div>
+               <div class="col">
+                  <img
+                     class="card-img rounded mb-3 shadow"
+                     src="./assets/img/place-holder-small.jpg"
+                     alt="a woman waling in the beach"
+                  />
+               </div>
+               <div class="col">
+                  <img
+                     class="card-img rounded mb-3 shadow"
+                     src="./assets/img/place-holder-small.jpg"
+                     alt="a woman waling in the beach"
+                  />
+               </div>
+               <div class="col">
+                  <img
+                     class="card-img rounded mb-3 shadow"
+                     src="./assets/img/place-holder-small.jpg"
+                     alt="a woman waling in the beach"
+                  />
+               </div>
+               <div class="col">
+                  <img
+                     class="card-img rounded mb-3 shadow"
+                     src="./assets/img/place-holder-small.jpg"
+                     alt="a woman waling in the beach"
+                  />
+               </div>
+            </div>
+         </div>
+
+         <!-- Dicono di noi -->
+         <div class="container mt-5 px-0">
+            <div class="mb-3">
+               <h2 class="ps-0 m-0 text-center">Dicono di noi</h2>
+            </div>
+            <div class="row row-cols-1">
+               <div class="col mb-4 d-flex">
+                  <div class="col-1 w-5 me-3 pe-3">
+                     <img
+                        class="img-fluid rounded-circle border border-info img-thumbnail object-fit-cover"
+                        src="./assets/img/user.jpg"
+                        alt="user image"
+                     />
+                  </div>
+                  <div class="col-11">
+                     <h4>Username</h4>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta commodi deserunt sint error accusamus non
+                        excepturi quo perspiciatis, reiciendis, molestiae
+                        doloribus deleniti eveniet corporis odio laborum officia
+                        quaerat sunt ab. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Veritatis aliquid in voluptates cumque
+                        voluptatum libero delectus? Veniam esse veritatis
+                        placeat quasi inventore eaque dolorem quia saepe
+                        possimus nam, quas eum!
+                     </p>
+                  </div>
+               </div>
+               <div class="col mb-4 d-flex">
+                  <div class="col-1 w-5 me-3 pe-3">
+                     <img
+                        class="img-fluid rounded-circle border border-info img-thumbnail object-fit-cover"
+                        src="./assets/img/user.jpg"
+                        alt="user image"
+                     />
+                  </div>
+                  <div class="col-11">
+                     <h4>Username</h4>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta commodi deserunt sint error accusamus non
+                        excepturi quo perspiciatis, reiciendis, molestiae
+                        doloribus deleniti eveniet corporis odio laborum officia
+                        quaerat sunt ab. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Veritatis aliquid in voluptates cumque
+                        voluptatum libero delectus? Veniam esse veritatis
+                        placeat quasi inventore eaque dolorem quia saepe
+                        possimus nam, quas eum!
+                     </p>
+                  </div>
+               </div>
+               <div class="col mb-4 d-flex">
+                  <div class="col-1 w-5 me-3 pe-3">
+                     <img
+                        class="img-fluid rounded-circle border border-info img-thumbnail object-fit-cover"
+                        src="./assets/img/user.jpg"
+                        alt="user image"
+                     />
+                  </div>
+                  <div class="col-11">
+                     <h4>Username</h4>
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta commodi deserunt sint error accusamus non
+                        excepturi quo perspiciatis, reiciendis, molestiae
+                        doloribus deleniti eveniet corporis odio laborum officia
+                        quaerat sunt ab. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Veritatis aliquid in voluptates cumque
+                        voluptatum libero delectus? Veniam esse veritatis
+                        placeat quasi inventore eaque dolorem quia saepe
+                        possimus nam, quas eum!
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="py-4 mt-4 text-bg-dark d-flex flex-column">
+         <button
+            type="button"
+            class="btn btn-outline-secondary align-self-center mb-4 mt-4"
+         >
+            Contattaci
+         </button>
+         <p class="text-center pb-4 mb-6">
+            © 2023 Kalina Travel LTD. All Right Reserved.
+         </p>
+      </footer>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>
